@@ -52,7 +52,7 @@ export default function Home() {
         <div className="absolute inset-0 z-0 bg-black">
           <div className="absolute inset-0 bg-black/50 z-10 pointer-events-none"></div>
           <video
-            src="https://drive.google.com/uc?export=view&id=16y60_Zo6K5_3so56l6uhI05SP3pwkCYd"
+            src="/media/video1.mp4"
             autoPlay
             loop
             muted
