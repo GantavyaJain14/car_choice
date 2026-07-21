@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { ThumbsUp, Trophy, Calculator, Phone, CheckCircle2 } from "lucide-react";
+import { API_BASE_URL } from "@/lib/utils";
 
 export default function InsurancePage() {
     const [name, setName] = useState("");
@@ -13,7 +14,7 @@ export default function InsurancePage() {
         if (!name || !phone) return;
 
         try {
-            const response = await fetch("http://127.0.0.1:8000/call-request", {
+            const response = await fetch(`${API_BASE_URL}/call-request`, {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",

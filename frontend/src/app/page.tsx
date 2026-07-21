@@ -6,6 +6,7 @@ import { LiquidMetalButton } from "@/components/ui/liquid-metal-button";
 import CarCard, { Car } from "@/components/CarCard";
 import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
+import { API_BASE_URL } from "@/lib/utils";
 
 export default function Home() {
   const [featuredCars, setFeaturedCars] = useState<Car[]>([]);
@@ -22,7 +23,7 @@ export default function Home() {
   useEffect(() => {
     async function fetchCars() {
       try {
-        const res = await fetch("http://127.0.0.1:8000/api/cars");
+        const res = await fetch(`${API_BASE_URL}/api/cars`);
         if (res.ok) {
           const data = await res.json();
           // Use provided images if fetched car image is missing

@@ -3,7 +3,7 @@
 import { motion, AnimatePresence } from "framer-motion";
 import { X, ChevronDown, Filter } from "lucide-react";
 import { useState, useEffect } from "react";
-import { cn } from "@/lib/utils";
+import { cn, API_BASE_URL } from "@/lib/utils";
 
 interface FilterModalProps {
   isOpen: boolean;
@@ -32,7 +32,7 @@ export function FilterModal({ isOpen, onClose, onApply, initialFilters }: Filter
   useEffect(() => {
     async function fetchBrands() {
       try {
-        const res = await fetch("http://localhost:8000/api/car-data");
+        const res = await fetch(`${API_BASE_URL}/api/car-data`);
         if (res.ok) {
           const data = await res.json();
           setBrands(data.brands);

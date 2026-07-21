@@ -6,6 +6,7 @@ import { Car, Lock, Plus, Trash2, Edit2, Image as ImageIcon, Upload, ChevronUp, 
 
 import { motion } from "framer-motion";
 import type { Car as CarType } from "@/components/CarCard";
+import { API_BASE_URL } from "@/lib/utils";
 
 const MONTHS = [
     "January", "February", "March", "April", "May", "June",
@@ -55,7 +56,7 @@ function AdminContent() {
     // Fetch car data on load
     const fetchCarData = async () => {
         try {
-            const response = await fetch("http://localhost:8000/api/car-data");
+            const response = await fetch(`${API_BASE_URL}/api/car-data`);
             if (response.ok) {
                 const data = await response.json();
                 const sortedBrands = [...data.brands].sort((a: any, b: any) => a.name.localeCompare(b.name));
@@ -168,7 +169,7 @@ function AdminContent() {
     const handleAddBrand = async () => {
         if (!mBrandName || !mBrandId) return;
         try {
-            const response = await fetch("http://localhost:8000/api/car-data/brands", {
+            const response = await fetch(`${API_BASE_URL}/api/car-data/brands`, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ id: mBrandId, name: mBrandName, models: [] })
@@ -183,7 +184,7 @@ function AdminContent() {
 
     const handleDeleteBrand = async (id: string) => {
         try {
-            await fetch(`http://localhost:8000/api/car-data/brands/${id}`, { method: "DELETE" });
+            await fetch(`${API_BASE_URL}/api/car-data/brands/${id}`, { method: "DELETE" });
             fetchCarData();
         } catch (e) { console.error(e); }
     };
@@ -191,7 +192,7 @@ function AdminContent() {
     const handleAddModel = async () => {
         if (!selectedMBrand || !mModelName || !mModelId) return;
         try {
-            const response = await fetch(`http://localhost:8000/api/car-data/brands/${selectedMBrand}/models`, {
+            const response = await fetch(`${API_BASE_URL}/api/car-data/brands/${selectedMBrand}/models`, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ id: mModelId, name: mModelName, variants: [], discontinued: false })
@@ -206,7 +207,7 @@ function AdminContent() {
 
     const handleDeleteModel = async (brandId: string, modelId: string) => {
         try {
-            await fetch(`http://localhost:8000/api/car-data/brands/${brandId}/models/${modelId}`, { method: "DELETE" });
+            await fetch(`${API_BASE_URL}/api/car-data/brands/${brandId}/models/${modelId}`, { method: "DELETE" });
             fetchCarData();
         } catch (e) { console.error(e); }
     };
@@ -214,7 +215,7 @@ function AdminContent() {
     const handleAddVariant = async () => {
         if (!selectedMBrand || !selectedMModel || !mVariantName) return;
         try {
-            const response = await fetch(`http://localhost:8000/api/car-data/brands/${selectedMBrand}/models/${selectedMModel}/variants`, {
+            const response = await fetch(`${API_BASE_URL}/api/car-data/brands/${selectedMBrand}/models/${selectedMModel}/variants`, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ name: mVariantName, fuel_type: mVariantFuel })
@@ -228,7 +229,7 @@ function AdminContent() {
 
     const handleDeleteVariant = async (brandId: string, modelId: string, variantName: string) => {
         try {
-            await fetch(`http://localhost:8000/api/car-data/brands/${brandId}/models/${modelId}/variants/${variantName}`, { method: "DELETE" });
+            await fetch(`${API_BASE_URL}/api/car-data/brands/${brandId}/models/${modelId}/variants/${variantName}`, { method: "DELETE" });
             fetchCarData();
         } catch (e) { console.error(e); }
     };
@@ -247,7 +248,7 @@ function AdminContent() {
     const fetchCars = async () => {
         setLoading(true);
         try {
-            const res = await fetch("http://localhost:8000/api/cars");
+            const res = await fetch(`${API_BASE_URL}/api/cars`);
             if (res.ok) {
                 const data = await res.json();
                 setCars(data);
@@ -320,8 +321,8 @@ function AdminContent() {
 
         try {
             const url = editingCarId
-                ? `http://localhost:8000/api/cars/${editingCarId}`
-                : "http://localhost:8000/api/cars";
+                ? `${API_BASE_URL}/api/cars/${editingCarId}`
+                : `${API_BASE_URL}/api/cars`;
 
             const res = await fetch(url, {
                 method: editingCarId ? "PUT" : "POST",
@@ -351,7 +352,7 @@ function AdminContent() {
     const handleDelete = async (id: string) => {
         if (!confirm("Are you sure you want to delete this car?")) return;
         try {
-            const res = await fetch(`http://localhost:8000/api/cars/${id}`, { method: "DELETE" });
+            const res = await fetch(`${API_BASE_URL}/api/cars/${id}`, { method: "DELETE" });
             if (res.ok) fetchCars();
         } catch (error) {
             console.error(error);
@@ -891,7 +892,7 @@ function AdminContent() {
                                         <div className="h-48 bg-[#050505] overflow-hidden relative border-b border-white/5">
                                             {car.images && car.images.length > 0 ? (
                                                 // eslint-disable-next-line @next/next/no-img-element
-                                                <img src={car.images[0].startsWith("http") ? car.images[0] : `http://localhost:8000${car.images[0]}`} alt={car.model} className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity group-hover:scale-105 duration-700" />
+                                                <img src={car.images[0].startsWith("http") ? car.images[0] : `${API_BASE_URL}${car.images[0]}`} alt={car.model} className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity group-hover:scale-105 duration-700" />
                                             ) : (
                                                 <div className="w-full h-full flex items-center justify-center text-white/10"><ImageIcon size={32} /></div>
                                             )}

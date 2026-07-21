@@ -5,6 +5,7 @@ import { Fuel, Gauge, Disc, Calendar, ShieldCheck, Mail, Phone, CalendarHeart, C
 import { useState, useEffect, use } from "react";
 import { CarGallery } from "@/components/ui/car-gallery";
 import { EmiCalculatorInline } from "@/components/EmiCalculatorInline";
+import { API_BASE_URL } from "@/lib/utils";
 
 export default function CarDetailPage({ params }: { params: Promise<{ id: string }> }) {
     const { id: carId } = use(params);
@@ -25,7 +26,7 @@ export default function CarDetailPage({ params }: { params: Promise<{ id: string
     useEffect(() => {
         const fetchCar = async () => {
             try {
-                const res = await fetch(`http://127.0.0.1:8000/api/cars`);
+                const res = await fetch(`${API_BASE_URL}/api/cars`);
                 if (res.ok) {
                     const cars = await res.json();
                     setCar(cars.find((c: Car) => c.id === carId) || null);
@@ -45,7 +46,7 @@ export default function CarDetailPage({ params }: { params: Promise<{ id: string
         setInquirySubmitting(true);
 
         try {
-            const response = await fetch("http://localhost:8000/api/inquiries", {
+            const response = await fetch(`${API_BASE_URL}/api/inquiries`, {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
@@ -77,7 +78,7 @@ export default function CarDetailPage({ params }: { params: Promise<{ id: string
     }
 
     // Helper formatting 
-    const displayImage = car?.images[0]?.startsWith("http") || car?.images[0]?.startsWith("/media") ? car?.images[0] : `http://localhost:8000${car?.images[0]}`
+    const displayImage = car?.images[0]?.startsWith("http") || car?.images[0]?.startsWith("/media") ? car?.images[0] : `${API_BASE_URL}${car?.images[0]}`
 
     return (
         <div className="bg-black min-h-screen text-white">
@@ -122,7 +123,7 @@ export default function CarDetailPage({ params }: { params: Promise<{ id: string
                         <h2 className="text-sm font-bold tracking-[0.3em] uppercase mb-6 text-white/40 pb-4 border-b border-white/10">GALLERY</h2>
                         <CarGallery
                             images={car?.images.map((img) =>
-                                img.startsWith("http") || img.startsWith("/media") ? img : `http://localhost:8000${img}`
+                                img.startsWith("http") || img.startsWith("/media") ? img : `${API_BASE_URL}${img}`
                             ) || []}
                             carName={`${car?.make} ${car?.model}`}
                         />

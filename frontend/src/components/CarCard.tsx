@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Fuel, Gauge, User } from "lucide-react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
+import { API_BASE_URL } from "@/lib/utils";
 
 export interface Car {
   id: string;
@@ -49,7 +50,7 @@ export default function CarCard({ car }: CarCardProps) {
 
   // Use first image or a placeholder that was provided in media
   const mainImage = car.images && car.images.length > 0
-    ? (car.images[0].startsWith('http') || car.images[0].startsWith('/media') ? car.images[0] : `http://localhost:8000${car.images[0]}`)
+    ? (car.images[0].startsWith('http') || car.images[0].startsWith('/media') ? car.images[0] : `${API_BASE_URL}${car.images[0]}`)
     : "/media/image1.jpeg";
 
   return (

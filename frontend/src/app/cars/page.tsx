@@ -1,9 +1,10 @@
 import { Car } from "@/components/CarCard";
 import CarsContent from "./CarsContent";
+import { API_BASE_URL } from "@/lib/utils";
 
 async function getAllCars(): Promise<Car[]> {
     try {
-        const res = await fetch("http://127.0.0.1:8000/api/cars", { cache: 'no-store' });
+        const res = await fetch(`${API_BASE_URL}/api/cars`, { cache: 'no-store' });
         if (!res.ok) return [];
         const data = await res.json();
         return data.map((car: Car, i: number) => ({

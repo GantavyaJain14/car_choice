@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { CheckCircle, ChevronUp, ChevronDown } from "lucide-react";
 import Link from "next/link";
 import { useState, useEffect } from "react";
+import { API_BASE_URL } from "@/lib/utils";
 
 const CITIES = [
     "Jaipur", "Delhi", "Mumbai", "Bangalore", "Hyderabad", "Chennai",
@@ -54,7 +55,7 @@ export default function SellPage() {
     useEffect(() => {
         const fetchCarData = async () => {
             try {
-                const response = await fetch("http://localhost:8000/api/car-data");
+                const response = await fetch(`${API_BASE_URL}/api/car-data`);
                 if (response.ok) {
                     const data = await response.json();
                     const sortedBrands = [...data.brands].sort((a: any, b: any) => a.name.localeCompare(b.name));
@@ -190,7 +191,7 @@ export default function SellPage() {
         if (Object.keys(newErrors).length === 0) {
             setIsSubmitting(true);
             try {
-                const response = await fetch("http://localhost:8000/api/sell-requests", {
+                const response = await fetch(`${API_BASE_URL}/api/sell-requests`, {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",
