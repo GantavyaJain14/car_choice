@@ -1,0 +1,5004 @@
+{
+  "last_updated": "2025-03",
+  "fuel_types": [
+    "Petrol",
+    "Diesel",
+    "CNG",
+    "Electric",
+    "Hybrid"
+  ],
+  "brands": [
+    {
+      "id": "maruti_suzuki",
+      "name": "Maruti Suzuki",
+      "models": [
+        {
+          "id": "alto_k10",
+          "name": "Alto K10",
+          "variants": [
+            {
+              "name": "Std",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "LXi",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "VXi",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "VXi+",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "VXi AGS",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "VXi+ AGS",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "s_presso",
+          "name": "S-Presso",
+          "variants": [
+            {
+              "name": "Std",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "LXi",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "VXi",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "VXi+",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "VXi+ AGS",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "celerio",
+          "name": "Celerio",
+          "variants": [
+            {
+              "name": "LXi",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "VXi",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "ZXi",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "ZXi+",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "VXi AMT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "ZXi AMT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "ZXi+ AMT",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "wagon_r",
+          "name": "WagonR",
+          "variants": [
+            {
+              "name": "LXi 1.0",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "VXi 1.0",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "ZXi 1.0",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "LXi 1.2",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "VXi 1.2",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "ZXi 1.2",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "ZXi+ 1.2",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "VXi 1.0 AMT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "ZXi 1.2 AMT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "ZXi+ 1.2 AMT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "LXi CNG",
+              "fuel_type": "CNG"
+            },
+            {
+              "name": "VXi CNG",
+              "fuel_type": "CNG"
+            },
+            {
+              "name": "ZXi CNG",
+              "fuel_type": "CNG"
+            }
+          ]
+        },
+        {
+          "id": "swift",
+          "name": "Swift",
+          "variants": [
+            {
+              "name": "LXi",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "VXi",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "ZXi",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "ZXi+",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "VXi AMT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "ZXi AMT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "ZXi+ AMT",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "dzire",
+          "name": "Dzire",
+          "variants": [
+            {
+              "name": "LXi",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "VXi",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "ZXi",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "ZXi+",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "VXi AMT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "ZXi AMT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "ZXi+ AMT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "VXi CNG",
+              "fuel_type": "CNG"
+            },
+            {
+              "name": "ZXi CNG",
+              "fuel_type": "CNG"
+            }
+          ]
+        },
+        {
+          "id": "ertiga",
+          "name": "Ertiga",
+          "variants": [
+            {
+              "name": "LXi",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "VXi",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "ZXi",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "ZXi+",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "VXi AT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "ZXi AT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "ZXi+ AT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "VXi CNG",
+              "fuel_type": "CNG"
+            },
+            {
+              "name": "ZXi CNG",
+              "fuel_type": "CNG"
+            },
+            {
+              "name": "ZXi+ CNG",
+              "fuel_type": "CNG"
+            }
+          ]
+        },
+        {
+          "id": "xl6",
+          "name": "XL6",
+          "variants": [
+            {
+              "name": "Zeta",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Alpha",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Zeta AT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Alpha AT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Zeta CNG",
+              "fuel_type": "CNG"
+            },
+            {
+              "name": "Alpha CNG",
+              "fuel_type": "CNG"
+            }
+          ]
+        },
+        {
+          "id": "brezza",
+          "name": "Brezza",
+          "variants": [
+            {
+              "name": "LXi",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "VXi",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "ZXi",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "ZXi+",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "VXi AT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "ZXi AT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "ZXi+ AT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "VXi CNG",
+              "fuel_type": "CNG"
+            },
+            {
+              "name": "ZXi CNG",
+              "fuel_type": "CNG"
+            }
+          ]
+        },
+        {
+          "id": "grand_vitara",
+          "name": "Grand Vitara",
+          "variants": [
+            {
+              "name": "Sigma",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Delta",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Zeta",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Alpha",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Zeta+",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Alpha+",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Delta AT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Zeta AT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Alpha AT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Zeta+ AT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Alpha+ AT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Zeta Hybrid",
+              "fuel_type": "Hybrid"
+            },
+            {
+              "name": "Alpha Hybrid",
+              "fuel_type": "Hybrid"
+            },
+            {
+              "name": "Alpha+ Hybrid",
+              "fuel_type": "Hybrid"
+            }
+          ]
+        },
+        {
+          "id": "fronx",
+          "name": "Fronx",
+          "variants": [
+            {
+              "name": "Sigma",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Delta",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Delta+",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Zeta",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Alpha",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Delta AT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Zeta AT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Alpha AT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Delta+ Turbo",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Zeta Turbo",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Alpha Turbo",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Zeta Turbo AT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Alpha Turbo AT",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "jimny",
+          "name": "Jimny",
+          "variants": [
+            {
+              "name": "Zeta",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Alpha",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "invicto",
+          "name": "Invicto",
+          "variants": [
+            {
+              "name": "Zeta+",
+              "fuel_type": "Hybrid"
+            },
+            {
+              "name": "Alpha+",
+              "fuel_type": "Hybrid"
+            },
+            {
+              "name": "Zeta+ AT",
+              "fuel_type": "Hybrid"
+            },
+            {
+              "name": "Alpha+ AT",
+              "fuel_type": "Hybrid"
+            }
+          ]
+        },
+        {
+          "id": "eeco",
+          "name": "Eeco",
+          "variants": [
+            {
+              "name": "Std 5-Seater",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Std 7-Seater",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "AC 5-Seater",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "AC 7-Seater",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "CNG 5-Seater",
+              "fuel_type": "CNG"
+            },
+            {
+              "name": "CNG 7-Seater",
+              "fuel_type": "CNG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hyundai",
+      "name": "Hyundai",
+      "models": [
+        {
+          "id": "grand_i10_nios",
+          "name": "Grand i10 NIOS",
+          "variants": [
+            {
+              "name": "Era",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Magna",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Sportz",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Asta",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Sportz AMT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Asta AMT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Magna CNG",
+              "fuel_type": "CNG"
+            },
+            {
+              "name": "Sportz CNG",
+              "fuel_type": "CNG"
+            }
+          ]
+        },
+        {
+          "id": "i20",
+          "name": "i20",
+          "variants": [
+            {
+              "name": "Magna",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Sportz",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Asta",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Asta (O)",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Sportz IVT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Asta IVT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Asta (O) IVT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Sportz Turbo DCT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Asta Turbo DCT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Asta (O) Turbo DCT",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "exter",
+          "name": "Exter",
+          "variants": [
+            {
+              "name": "EX",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "S",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "S AMT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "SX",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "SX AMT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "SX+",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "SX+ AMT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "SX (O)",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "SX (O) AMT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "SX+ (O)",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "SX+ (O) AMT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "S CNG",
+              "fuel_type": "CNG"
+            },
+            {
+              "name": "SX CNG",
+              "fuel_type": "CNG"
+            }
+          ]
+        },
+        {
+          "id": "venue",
+          "name": "Venue",
+          "variants": [
+            {
+              "name": "E",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "S",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "S+",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "SX",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "SX+",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "SX (O)",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "S AMT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "SX DCT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "SX+ DCT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "SX (O) DCT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "S CNG",
+              "fuel_type": "CNG"
+            },
+            {
+              "name": "SX CNG",
+              "fuel_type": "CNG"
+            }
+          ]
+        },
+        {
+          "id": "creta",
+          "name": "Creta",
+          "variants": [
+            {
+              "name": "E",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "EX",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "S",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "S(O)",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "SX",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "SX Tech",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "SX(O)",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "S IVT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "SX IVT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "SX(O) IVT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "SX Turbo DCT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "SX(O) Turbo DCT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "E Diesel",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "S Diesel",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "SX Diesel MT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "SX(O) Diesel AT",
+              "fuel_type": "Diesel"
+            }
+          ]
+        },
+        {
+          "id": "alcazar",
+          "name": "Alcazar",
+          "variants": [
+            {
+              "name": "Prestige",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Prestige (O)",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Platinum",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Platinum (O)",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Prestige AT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Prestige (O) AT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Platinum AT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Platinum (O) AT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Prestige Diesel MT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Platinum Diesel MT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Prestige Diesel AT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Platinum Diesel AT",
+              "fuel_type": "Diesel"
+            }
+          ]
+        },
+        {
+          "id": "tucson",
+          "name": "Tucson",
+          "variants": [
+            {
+              "name": "Platinum Petrol AT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Signature Petrol AT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Platinum Diesel AT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Signature Diesel AT",
+              "fuel_type": "Diesel"
+            }
+          ]
+        },
+        {
+          "id": "verna",
+          "name": "Verna",
+          "variants": [
+            {
+              "name": "EX",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "S",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "SX",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "SX Tech",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "SX(O)",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "S IVT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "SX IVT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "SX(O) IVT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "SX Turbo DCT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "SX(O) Turbo DCT",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "ioniq5",
+          "name": "Ioniq 5",
+          "variants": [
+            {
+              "name": "RWD Standard Range",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "RWD Long Range",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "AWD Long Range",
+              "fuel_type": "Electric"
+            }
+          ]
+        },
+        {
+          "id": "ioniq6",
+          "name": "Ioniq 6",
+          "variants": [
+            {
+              "name": "RWD Standard Range",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "RWD Long Range",
+              "fuel_type": "Electric"
+            }
+          ]
+        },
+        {
+          "id": "creta_electric",
+          "name": "Creta Electric",
+          "variants": [
+            {
+              "name": "E",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "EX",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "S",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "S(O)",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "SX Tech",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "SX(O)",
+              "fuel_type": "Electric"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tata",
+      "name": "Tata",
+      "models": [
+        {
+          "id": "punch",
+          "name": "Punch",
+          "variants": [
+            {
+              "name": "Pure",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Adventure",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Accomplished",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Creative",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Pure AMT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Adventure AMT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Accomplished AMT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Creative AMT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Pure CNG",
+              "fuel_type": "CNG"
+            },
+            {
+              "name": "Adventure CNG",
+              "fuel_type": "CNG"
+            },
+            {
+              "name": "Accomplished CNG",
+              "fuel_type": "CNG"
+            }
+          ]
+        },
+        {
+          "id": "punch_ev",
+          "name": "Punch EV",
+          "variants": [
+            {
+              "name": "Smart",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "Smart+",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "Adventure",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "Empowered",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "Empowered+",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "Adventure Long Range",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "Empowered Long Range",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "Empowered+ Long Range",
+              "fuel_type": "Electric"
+            }
+          ]
+        },
+        {
+          "id": "nexon",
+          "name": "Nexon",
+          "variants": [
+            {
+              "name": "Smart",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Smart+",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Pure",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Pure S",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Creative",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Creative+",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Fearless",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Fearless+",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Creative AMT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Creative+ AMT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Fearless AMT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Fearless+ AMT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Smart Diesel",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Pure Diesel",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Creative Diesel",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Fearless Diesel",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Fearless+ Diesel",
+              "fuel_type": "Diesel"
+            }
+          ]
+        },
+        {
+          "id": "nexon_ev",
+          "name": "Nexon EV",
+          "variants": [
+            {
+              "name": "Creative",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "Creative+",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "Fearless",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "Fearless+",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "Fearless+ S",
+              "fuel_type": "Electric"
+            }
+          ]
+        },
+        {
+          "id": "harrier",
+          "name": "Harrier",
+          "variants": [
+            {
+              "name": "Smart",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Smart+",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Pure",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Pure S",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Adventure",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Fearless",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Fearless+",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Adventure AT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Fearless AT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Fearless+ AT",
+              "fuel_type": "Diesel"
+            }
+          ]
+        },
+        {
+          "id": "safari",
+          "name": "Safari",
+          "variants": [
+            {
+              "name": "Smart",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Smart+",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Pure",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Adventure",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Fearless",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Fearless+",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Adventure AT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Fearless AT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Fearless+ AT",
+              "fuel_type": "Diesel"
+            }
+          ]
+        },
+        {
+          "id": "curvv",
+          "name": "Curvv",
+          "variants": [
+            {
+              "name": "Creative",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Creative+",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Accomplished",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Accomplished+",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Accomplished S",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Creative AMT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Accomplished AMT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Accomplished+ AMT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Creative Diesel",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Accomplished Diesel",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Accomplished+ Diesel",
+              "fuel_type": "Diesel"
+            }
+          ]
+        },
+        {
+          "id": "curvv_ev",
+          "name": "Curvv EV",
+          "variants": [
+            {
+              "name": "Creative",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "Creative+",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "Accomplished",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "Accomplished+",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "Empowered",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "Empowered+",
+              "fuel_type": "Electric"
+            }
+          ]
+        },
+        {
+          "id": "tiago",
+          "name": "Tiago",
+          "variants": [
+            {
+              "name": "XE",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "XM",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "XT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "XZ",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "XZ+",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "XZ+ Dual Tone",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "XZ AMT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "XZ+ AMT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "XE CNG",
+              "fuel_type": "CNG"
+            },
+            {
+              "name": "XM CNG",
+              "fuel_type": "CNG"
+            },
+            {
+              "name": "XT CNG",
+              "fuel_type": "CNG"
+            },
+            {
+              "name": "XZ CNG",
+              "fuel_type": "CNG"
+            }
+          ]
+        },
+        {
+          "id": "tiago_ev",
+          "name": "Tiago EV",
+          "variants": [
+            {
+              "name": "XE",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "XT",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "XZ+",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "XZ+ Tech LUX",
+              "fuel_type": "Electric"
+            }
+          ]
+        },
+        {
+          "id": "tigor",
+          "name": "Tigor",
+          "variants": [
+            {
+              "name": "XE",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "XM",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "XT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "XZ+",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "XE CNG",
+              "fuel_type": "CNG"
+            },
+            {
+              "name": "XM CNG",
+              "fuel_type": "CNG"
+            },
+            {
+              "name": "XT CNG",
+              "fuel_type": "CNG"
+            },
+            {
+              "name": "XZ+ CNG",
+              "fuel_type": "CNG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mahindra",
+      "name": "Mahindra",
+      "models": [
+        {
+          "id": "thar",
+          "name": "Thar",
+          "variants": [
+            {
+              "name": "AX Opt Hard Top MT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "AX Opt Soft Top MT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "LX Hard Top MT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "LX Hard Top AT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "LX Soft Top MT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "LX Hard Top MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "LX Hard Top AT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "LX Soft Top MT",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "thar_roxx",
+          "name": "Thar Roxx",
+          "variants": [
+            {
+              "name": "MX1",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "MX3",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "MX3 Pro",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "MX5",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "MX5 Pro",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "MX1 AWD",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "MX3 AWD",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "MX5 AWD",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "MX5 Pro AWD",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "MX1",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "MX3",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "MX5",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "scorpio_n",
+          "name": "Scorpio N",
+          "variants": [
+            {
+              "name": "Z2 MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Z4 MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Z6 MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Z8 MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Z4 AT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Z6 AT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Z8 AT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Z2 MT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Z4 MT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Z6 MT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Z8 MT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Z8 L MT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Z4 AT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Z6 AT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Z8 AT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Z8 L AT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Z6 AWD MT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Z8 AWD AT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Z8 L AWD AT",
+              "fuel_type": "Diesel"
+            }
+          ]
+        },
+        {
+          "id": "scorpio_classic",
+          "name": "Scorpio Classic",
+          "variants": [
+            {
+              "name": "S",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "S11",
+              "fuel_type": "Diesel"
+            }
+          ]
+        },
+        {
+          "id": "xuv3xo",
+          "name": "XUV 3XO",
+          "variants": [
+            {
+              "name": "MX1",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "MX2",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "MX2 Pro",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "MX3",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "MX3 Pro",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "AX5",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "AX5 L",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "AX7 L",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "MX2 AMT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "MX3 AMT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "AX5 AMT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "MX1 Diesel",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "MX2 Diesel",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "MX3 Diesel",
+              "fuel_type": "Diesel"
+            }
+          ]
+        },
+        {
+          "id": "xuv700",
+          "name": "XUV700",
+          "variants": [
+            {
+              "name": "MX MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "AX3 MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "AX5 MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "AX5 AT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "AX7 AT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "AX7 L AT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "AX3 MT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "AX5 MT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "AX5 AT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "AX7 MT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "AX7 AT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "AX7 L AT",
+              "fuel_type": "Diesel"
+            }
+          ]
+        },
+        {
+          "id": "be6",
+          "name": "BE 6",
+          "variants": [
+            {
+              "name": "Pack One",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "Pack Two",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "Pack Three",
+              "fuel_type": "Electric"
+            }
+          ]
+        },
+        {
+          "id": "xev9e",
+          "name": "XEV 9e",
+          "variants": [
+            {
+              "name": "Pack One",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "Pack Two",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "Pack Three",
+              "fuel_type": "Electric"
+            }
+          ]
+        },
+        {
+          "id": "bolero",
+          "name": "Bolero",
+          "variants": [
+            {
+              "name": "B2",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "B4",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "B6",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "B6 (O)",
+              "fuel_type": "Diesel"
+            }
+          ]
+        },
+        {
+          "id": "bolero_neo",
+          "name": "Bolero Neo",
+          "variants": [
+            {
+              "name": "N4",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "N8",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "N10",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "N10 (O)",
+              "fuel_type": "Diesel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kia",
+      "name": "Kia",
+      "models": [
+        {
+          "id": "sonet",
+          "name": "Sonet",
+          "variants": [
+            {
+              "name": "HTE",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "HTK",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "HTK+",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "HTX",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "HTX+",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "GTX+",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "HTX iMT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "HTX+ iMT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "HTX DCT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "HTX+ DCT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "GTX+ DCT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "HTK Diesel",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "HTK+ Diesel",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "HTX Diesel",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "HTX+ Diesel AT",
+              "fuel_type": "Diesel"
+            }
+          ]
+        },
+        {
+          "id": "seltos",
+          "name": "Seltos",
+          "variants": [
+            {
+              "name": "HTE",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "HTK",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "HTK+",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "HTX",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "HTX+",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "GTX+",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "X Line",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "HTK+ IVT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "HTX IVT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "HTX+ IVT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "HTX Turbo DCT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "HTX+ Turbo DCT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "GTX+ Turbo DCT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "HTK Diesel",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "HTX Diesel MT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "HTX+ Diesel AT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "GTX+ Diesel AT",
+              "fuel_type": "Diesel"
+            }
+          ]
+        },
+        {
+          "id": "carens",
+          "name": "Carens",
+          "variants": [
+            {
+              "name": "Premium",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Premium Plus",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Prestige",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Prestige Plus",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Luxury",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Luxury Plus",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Premium DCT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Prestige DCT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Prestige Diesel MT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Luxury Diesel MT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Luxury Plus Diesel AT",
+              "fuel_type": "Diesel"
+            }
+          ]
+        },
+        {
+          "id": "ev6",
+          "name": "EV6",
+          "variants": [
+            {
+              "name": "GT Line RWD",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "GT Line AWD",
+              "fuel_type": "Electric"
+            }
+          ]
+        },
+        {
+          "id": "ev9",
+          "name": "EV9",
+          "variants": [
+            {
+              "name": "GT Line AWD",
+              "fuel_type": "Electric"
+            }
+          ]
+        },
+        {
+          "id": "syros",
+          "name": "Syros",
+          "variants": [
+            {
+              "name": "HTK",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "HTK+",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "HTX",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "HTX+",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "GTX+",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "HTK+ DCT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "HTX DCT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "HTX+ DCT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "GTX+ DCT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "HTK Diesel",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "HTX Diesel",
+              "fuel_type": "Diesel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "toyota",
+      "name": "Toyota",
+      "models": [
+        {
+          "id": "glanza",
+          "name": "Glanza",
+          "variants": [
+            {
+              "name": "E",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "S",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "G",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "V",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "S AMT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "G AMT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "V AMT",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "urban_cruiser_hyryder",
+          "name": "Urban Cruiser Hyryder",
+          "variants": [
+            {
+              "name": "E MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "S MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "G MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "V MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "S AT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "G AT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "V AT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "G Hybrid",
+              "fuel_type": "Hybrid"
+            },
+            {
+              "name": "V Hybrid",
+              "fuel_type": "Hybrid"
+            },
+            {
+              "name": "G AWD Hybrid",
+              "fuel_type": "Hybrid"
+            }
+          ]
+        },
+        {
+          "id": "innova_crysta",
+          "name": "Innova Crysta",
+          "variants": [
+            {
+              "name": "GX MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "GX+ MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "VX MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "ZX MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "GX MT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "GX+ MT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "VX MT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "ZX MT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "GX AT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "VX AT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "ZX AT",
+              "fuel_type": "Diesel"
+            }
+          ]
+        },
+        {
+          "id": "innova_hycross",
+          "name": "Innova Hycross",
+          "variants": [
+            {
+              "name": "G MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "GX MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "GX (O) MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "VX MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "ZX MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "G CVT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "GX CVT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "VX Hybrid",
+              "fuel_type": "Hybrid"
+            },
+            {
+              "name": "ZX Hybrid",
+              "fuel_type": "Hybrid"
+            }
+          ]
+        },
+        {
+          "id": "fortuner",
+          "name": "Fortuner",
+          "variants": [
+            {
+              "name": "2WD AT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "2WD MT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "2WD AT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "4WD MT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "4WD AT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Legender 4WD AT",
+              "fuel_type": "Diesel"
+            }
+          ]
+        },
+        {
+          "id": "taisor",
+          "name": "Taisor",
+          "variants": [
+            {
+              "name": "E",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "S",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "G",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "V",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "S AMT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "G AMT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "G Turbo",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "V Turbo",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "G Turbo AT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "V Turbo AT",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "camry",
+          "name": "Camry",
+          "variants": [
+            {
+              "name": "Hybrid",
+              "fuel_type": "Hybrid"
+            }
+          ]
+        },
+        {
+          "id": "vellfire",
+          "name": "Vellfire",
+          "variants": [
+            {
+              "name": "Premium Hybrid",
+              "fuel_type": "Hybrid"
+            },
+            {
+              "name": "Executive Lounge Hybrid",
+              "fuel_type": "Hybrid"
+            }
+          ]
+        },
+        {
+          "id": "land_cruiser",
+          "name": "Land Cruiser",
+          "variants": [
+            {
+              "name": "VX",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "hilux",
+          "name": "Hilux",
+          "variants": [
+            {
+              "name": "Standard 4x4 MT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "High 4x4 AT",
+              "fuel_type": "Diesel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "honda",
+      "name": "Honda",
+      "models": [
+        {
+          "id": "amaze",
+          "name": "Amaze",
+          "variants": [
+            {
+              "name": "E MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "S MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "SX MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "V MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "VX MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "S CVT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "SX CVT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "V CVT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "VX CVT",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "city",
+          "name": "City",
+          "variants": [
+            {
+              "name": "S MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "V MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "VX MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "ZX MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "V CVT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "VX CVT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "ZX CVT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "eHEV V",
+              "fuel_type": "Hybrid"
+            },
+            {
+              "name": "eHEV ZX",
+              "fuel_type": "Hybrid"
+            }
+          ]
+        },
+        {
+          "id": "elevate",
+          "name": "Elevate",
+          "variants": [
+            {
+              "name": "S MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "V MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "VX MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "ZX MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "V CVT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "VX CVT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "ZX CVT",
+              "fuel_type": "Petrol"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mg",
+      "name": "MG",
+      "models": [
+        {
+          "id": "hector",
+          "name": "Hector",
+          "variants": [
+            {
+              "name": "Style",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Super",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Smart",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Sharp",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Savvy",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Select",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Style CVT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Super CVT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Sharp CVT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Style Diesel",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Super Diesel",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Smart Diesel",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Sharp Diesel",
+              "fuel_type": "Diesel"
+            }
+          ]
+        },
+        {
+          "id": "astor",
+          "name": "Astor",
+          "variants": [
+            {
+              "name": "Style",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Super",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Smart",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Sharp",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Savvy",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Style CVT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Super CVT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Smart CVT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Sharp CVT",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "gloster",
+          "name": "Gloster",
+          "variants": [
+            {
+              "name": "Super 2WD AT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Sharp 2WD AT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Sharp+ 2WD AT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Savvy 4WD AT",
+              "fuel_type": "Diesel"
+            }
+          ]
+        },
+        {
+          "id": "comet_ev",
+          "name": "Comet EV",
+          "variants": [
+            {
+              "name": "Pace",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "Play",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "Plush",
+              "fuel_type": "Electric"
+            }
+          ]
+        },
+        {
+          "id": "zs_ev",
+          "name": "ZS EV",
+          "variants": [
+            {
+              "name": "Excite",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "Exclusive",
+              "fuel_type": "Electric"
+            }
+          ]
+        },
+        {
+          "id": "windsor_ev",
+          "name": "Windsor EV",
+          "variants": [
+            {
+              "name": "Excite",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "Exclusive",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "Essence",
+              "fuel_type": "Electric"
+            }
+          ]
+        },
+        {
+          "id": "cyberster",
+          "name": "Cyberster",
+          "variants": [
+            {
+              "name": "Standard",
+              "fuel_type": "Electric"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skoda",
+      "name": "Skoda",
+      "models": [
+        {
+          "id": "kushaq",
+          "name": "Kushaq",
+          "variants": [
+            {
+              "name": "Active 1.0",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Ambition 1.0",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Style 1.0",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Ambition 1.5 DSG",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Style 1.5 DSG",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Monte Carlo 1.5 DSG",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "slavia",
+          "name": "Slavia",
+          "variants": [
+            {
+              "name": "Active 1.0",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Ambition 1.0",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Style 1.0",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Ambition 1.5 DSG",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Style 1.5 DSG",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Monte Carlo 1.5 DSG",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "kylaq",
+          "name": "Kylaq",
+          "variants": [
+            {
+              "name": "Classic",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Signature",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Signature+",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Prestige",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "kodiaq",
+          "name": "Kodiaq",
+          "variants": [
+            {
+              "name": "Style",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "superb",
+          "name": "Superb",
+          "variants": [
+            {
+              "name": "L&K",
+              "fuel_type": "Petrol"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "volkswagen",
+      "name": "Volkswagen",
+      "models": [
+        {
+          "id": "taigun",
+          "name": "Taigun",
+          "variants": [
+            {
+              "name": "Comfortline 1.0",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Highline 1.0",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Topline 1.0",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "GT 1.5 DSG",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Topline 1.5 DSG",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "GT Plus Sport 1.5 DSG",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "virtus",
+          "name": "Virtus",
+          "variants": [
+            {
+              "name": "Comfortline 1.0",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Highline 1.0",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Topline 1.0",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "GT 1.5 DSG",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Topline 1.5 DSG",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "tiguan",
+          "name": "Tiguan",
+          "variants": [
+            {
+              "name": "Elegance",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "R-Line",
+              "fuel_type": "Petrol"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "renault",
+      "name": "Renault",
+      "models": [
+        {
+          "id": "kwid",
+          "name": "Kwid",
+          "variants": [
+            {
+              "name": "Std",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "RXE",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "RXL",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "RXT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "RXT (O)",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Climber",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "RXL AMT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "RXT AMT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Climber AMT",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "kiger",
+          "name": "Kiger",
+          "variants": [
+            {
+              "name": "RXE",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "RXL",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "RXT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "RXZ",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "RXT AMT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "RXZ AMT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "RXT Turbo",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "RXZ Turbo",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "RXT Turbo CVT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "RXZ Turbo CVT",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "triber",
+          "name": "Triber",
+          "variants": [
+            {
+              "name": "RXE",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "RXL",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "RXT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "RXZ",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "RXT AMT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "RXZ AMT",
+              "fuel_type": "Petrol"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nissan",
+      "name": "Nissan",
+      "models": [
+        {
+          "id": "magnite",
+          "name": "Magnite",
+          "variants": [
+            {
+              "name": "XE",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "XL",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "XV",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "XV Premium",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "XV Premium Opt",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "XV Turbo",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "XV Premium Turbo",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "XV Premium Opt Turbo",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "XV Premium Turbo CVT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "XV Premium Opt Turbo CVT",
+              "fuel_type": "Petrol"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jeep",
+      "name": "Jeep",
+      "models": [
+        {
+          "id": "compass",
+          "name": "Compass",
+          "variants": [
+            {
+              "name": "Sport",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Sport Plus",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Longitude",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Longitude Plus",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Meridian",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Sport Diesel",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Longitude Diesel",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Longitude Plus Diesel",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Limited 4x4 Diesel",
+              "fuel_type": "Diesel"
+            }
+          ]
+        },
+        {
+          "id": "meridian",
+          "name": "Meridian",
+          "variants": [
+            {
+              "name": "Longitude",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Longitude Plus",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Limited",
+              "fuel_type": "Diesel"
+            }
+          ]
+        },
+        {
+          "id": "wrangler",
+          "name": "Wrangler",
+          "variants": [
+            {
+              "name": "Unlimited",
+              "fuel_type": "Petrol"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "citroen",
+      "name": "Citro\u00ebn",
+      "models": [
+        {
+          "id": "c3",
+          "name": "C3",
+          "variants": [
+            {
+              "name": "Live",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Feel",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Feel Plus",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Shine",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "ec3",
+          "name": "eC3",
+          "variants": [
+            {
+              "name": "Feel",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "Feel Plus",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "Shine",
+              "fuel_type": "Electric"
+            }
+          ]
+        },
+        {
+          "id": "c3_aircross",
+          "name": "C3 Aircross",
+          "variants": [
+            {
+              "name": "Feel 5-Seater",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Feel Plus 5-Seater",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Shine 5-Seater",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Feel 7-Seater",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Feel Plus 7-Seater",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Shine 7-Seater",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "basalt",
+          "name": "Basalt",
+          "variants": [
+            {
+              "name": "Feel",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Feel Plus",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Shine",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Shine AT",
+              "fuel_type": "Petrol"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bmw",
+      "name": "BMW",
+      "models": [
+        {
+          "id": "2_series",
+          "name": "2 Series",
+          "variants": [
+            {
+              "name": "Gran Coupe Sport",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Gran Coupe M Sport",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "3_series",
+          "name": "3 Series",
+          "variants": [
+            {
+              "name": "Gran Limousine Sport",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Gran Limousine M Sport",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Gran Limousine M Sport Pro",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "5_series",
+          "name": "5 Series",
+          "variants": [
+            {
+              "name": "520i Sport",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "520d Sport",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "530d M Sport",
+              "fuel_type": "Diesel"
+            }
+          ]
+        },
+        {
+          "id": "7_series",
+          "name": "7 Series",
+          "variants": [
+            {
+              "name": "740i",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "740Li DPE",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "740Li DPE Signature",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "x1",
+          "name": "X1",
+          "variants": [
+            {
+              "name": "sDrive20i Sport",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "sDrive20i xLine",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "sDrive20i M Sport",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "sDrive20d Sport",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "sDrive20d xLine",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "sDrive20d M Sport",
+              "fuel_type": "Diesel"
+            }
+          ]
+        },
+        {
+          "id": "x3",
+          "name": "X3",
+          "variants": [
+            {
+              "name": "xDrive20i Sport",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "xDrive20i xLine",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "xDrive20i M Sport",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "xDrive20d Sport",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "xDrive20d xLine",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "xDrive20d M Sport",
+              "fuel_type": "Diesel"
+            }
+          ]
+        },
+        {
+          "id": "x5",
+          "name": "X5",
+          "variants": [
+            {
+              "name": "xDrive40i M Sport",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "xDrive30d M Sport",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "xDrive40i M Sport Pro",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "x7",
+          "name": "X7",
+          "variants": [
+            {
+              "name": "xDrive40i DPE",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "xDrive40i M Sport",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "i4",
+          "name": "i4",
+          "variants": [
+            {
+              "name": "eDrive40 M Sport",
+              "fuel_type": "Electric"
+            }
+          ]
+        },
+        {
+          "id": "ix",
+          "name": "iX",
+          "variants": [
+            {
+              "name": "xDrive40 Sport",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "xDrive50 Sport",
+              "fuel_type": "Electric"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mercedes_benz",
+      "name": "Mercedes-Benz",
+      "models": [
+        {
+          "id": "a_class",
+          "name": "A-Class Limousine",
+          "variants": [
+            {
+              "name": "200 Progressive",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "200 AMG Line",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "c_class",
+          "name": "C-Class",
+          "variants": [
+            {
+              "name": "C200",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "C220d",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "C300d AMG Line",
+              "fuel_type": "Diesel"
+            }
+          ]
+        },
+        {
+          "id": "e_class",
+          "name": "E-Class",
+          "variants": [
+            {
+              "name": "E200",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "E220d",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "E450 4MATIC",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "s_class",
+          "name": "S-Class",
+          "variants": [
+            {
+              "name": "S450",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "S450L 4MATIC",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Maybach S580",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "gla",
+          "name": "GLA",
+          "variants": [
+            {
+              "name": "200 Progressive",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "200 AMG Line",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "glb",
+          "name": "GLB",
+          "variants": [
+            {
+              "name": "200 Progressive",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "200 AMG Line",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "220d AMG Line",
+              "fuel_type": "Diesel"
+            }
+          ]
+        },
+        {
+          "id": "glc",
+          "name": "GLC",
+          "variants": [
+            {
+              "name": "220d 4MATIC",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "300d 4MATIC AMG Line",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "200 Progressive",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "gle",
+          "name": "GLE",
+          "variants": [
+            {
+              "name": "300d 4MATIC",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "450 AMG Line 4MATIC",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "300d 4MATIC",
+              "fuel_type": "Diesel"
+            }
+          ]
+        },
+        {
+          "id": "gls",
+          "name": "GLS",
+          "variants": [
+            {
+              "name": "400d 4MATIC",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "450 4MATIC",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "eqb",
+          "name": "EQB",
+          "variants": [
+            {
+              "name": "350 4MATIC AMG Line",
+              "fuel_type": "Electric"
+            }
+          ]
+        },
+        {
+          "id": "eqs",
+          "name": "EQS",
+          "variants": [
+            {
+              "name": "580 4MATIC AMG Line",
+              "fuel_type": "Electric"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "audi",
+      "name": "Audi",
+      "models": [
+        {
+          "id": "a4",
+          "name": "A4",
+          "variants": [
+            {
+              "name": "Premium",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Premium Plus",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Technology",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "a6",
+          "name": "A6",
+          "variants": [
+            {
+              "name": "Premium Plus",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Technology",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "a8",
+          "name": "A8 L",
+          "variants": [
+            {
+              "name": "55 TFSI quattro Technology",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "60 TFSI e quattro",
+              "fuel_type": "Hybrid"
+            }
+          ]
+        },
+        {
+          "id": "q3",
+          "name": "Q3",
+          "variants": [
+            {
+              "name": "Premium Plus",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Technology",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Sportback Premium Plus",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Sportback Technology",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "q5",
+          "name": "Q5",
+          "variants": [
+            {
+              "name": "Premium Plus",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Technology",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "q7",
+          "name": "Q7",
+          "variants": [
+            {
+              "name": "Premium Plus",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Technology",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "q8",
+          "name": "Q8",
+          "variants": [
+            {
+              "name": "55 TFSI quattro Technology",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "SQ8 quattro",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "e_tron",
+          "name": "e-tron",
+          "variants": [
+            {
+              "name": "55 quattro Technology",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "Sportback 55 quattro Technology",
+              "fuel_type": "Electric"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "force",
+      "name": "Force Motors",
+      "models": [
+        {
+          "id": "gurkha",
+          "name": "Gurkha",
+          "variants": [
+            {
+              "name": "3-Door",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "5-Door",
+              "fuel_type": "Diesel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "isuzu",
+      "name": "Isuzu",
+      "models": [
+        {
+          "id": "d_max",
+          "name": "D-Max",
+          "variants": [
+            {
+              "name": "S Regular Cab MT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "V-Cross 4x2 AT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "V-Cross 4x4 MT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "V-Cross 4x4 AT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Hi-Lander 4x2 AT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Z-Prestige 4x4 AT",
+              "fuel_type": "Diesel"
+            }
+          ]
+        },
+        {
+          "id": "mu_x",
+          "name": "MU-X",
+          "variants": [
+            {
+              "name": "4x2 AT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "4x4 AT",
+              "fuel_type": "Diesel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "volvo",
+      "name": "Volvo",
+      "models": [
+        {
+          "id": "xc40",
+          "name": "XC40",
+          "variants": [
+            {
+              "name": "Recharge Twin Plus",
+              "fuel_type": "Electric"
+            }
+          ]
+        },
+        {
+          "id": "xc60",
+          "name": "XC60",
+          "variants": [
+            {
+              "name": "B5 Inscription",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "B6 AWD R-Design",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "xc90",
+          "name": "XC90",
+          "variants": [
+            {
+              "name": "B5 AWD Inscription",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "B6 AWD R-Design",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Recharge T8",
+              "fuel_type": "Hybrid"
+            }
+          ]
+        },
+        {
+          "id": "s90",
+          "name": "S90",
+          "variants": [
+            {
+              "name": "B6 Inscription",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "c40",
+          "name": "C40 Recharge",
+          "variants": [
+            {
+              "name": "Twin Plus",
+              "fuel_type": "Electric"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lamborghini",
+      "name": "Lamborghini",
+      "models": [
+        {
+          "id": "urus",
+          "name": "Urus",
+          "variants": [
+            {
+              "name": "S",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Performante",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "huracan",
+          "name": "Hurac\u00e1n",
+          "variants": [
+            {
+              "name": "EVO RWD",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "EVO Spyder RWD",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Tecnica",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "STO",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "revuelto",
+          "name": "Revuelto",
+          "variants": [
+            {
+              "name": "Coupe",
+              "fuel_type": "Hybrid"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lexus",
+      "name": "Lexus",
+      "models": [
+        {
+          "id": "es",
+          "name": "ES",
+          "variants": [
+            {
+              "name": "300h Exquisite",
+              "fuel_type": "Hybrid"
+            },
+            {
+              "name": "300h Luxury",
+              "fuel_type": "Hybrid"
+            },
+            {
+              "name": "300h Ultra Luxury",
+              "fuel_type": "Hybrid"
+            }
+          ]
+        },
+        {
+          "id": "nx",
+          "name": "NX",
+          "variants": [
+            {
+              "name": "350h Exquisite",
+              "fuel_type": "Hybrid"
+            },
+            {
+              "name": "350h Luxury",
+              "fuel_type": "Hybrid"
+            },
+            {
+              "name": "350h F Sport",
+              "fuel_type": "Hybrid"
+            },
+            {
+              "name": "450h+ Luxury",
+              "fuel_type": "Hybrid"
+            },
+            {
+              "name": "450h+ F Sport",
+              "fuel_type": "Hybrid"
+            }
+          ]
+        },
+        {
+          "id": "rx",
+          "name": "RX",
+          "variants": [
+            {
+              "name": "500h F Sport Performance",
+              "fuel_type": "Hybrid"
+            },
+            {
+              "name": "450h+ Luxury",
+              "fuel_type": "Hybrid"
+            }
+          ]
+        },
+        {
+          "id": "lx",
+          "name": "LX",
+          "variants": [
+            {
+              "name": "500d",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "500d Luxury",
+              "fuel_type": "Diesel"
+            }
+          ]
+        },
+        {
+          "id": "lm",
+          "name": "LM",
+          "variants": [
+            {
+              "name": "350h 4-Seater",
+              "fuel_type": "Hybrid"
+            },
+            {
+              "name": "350h 7-Seater",
+              "fuel_type": "Hybrid"
+            },
+            {
+              "name": "500h 4-Seater",
+              "fuel_type": "Hybrid"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "land_rover",
+      "name": "Land Rover",
+      "models": [
+        {
+          "id": "defender",
+          "name": "Defender",
+          "variants": [
+            {
+              "name": "90 S Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "90 SE Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "90 X Dynamic S Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "110 S Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "110 SE Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "110 X Dynamic S Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "110 X Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "90 S Diesel",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "110 S Diesel",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "110 SE Diesel",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "110 X Dynamic SE Diesel",
+              "fuel_type": "Diesel"
+            }
+          ]
+        },
+        {
+          "id": "discovery",
+          "name": "Discovery",
+          "variants": [
+            {
+              "name": "S Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "SE Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "HSE Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "S Diesel",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "HSE Diesel",
+              "fuel_type": "Diesel"
+            }
+          ]
+        },
+        {
+          "id": "discovery_sport",
+          "name": "Discovery Sport",
+          "variants": [
+            {
+              "name": "S Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "SE Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "HSE Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "SE Diesel",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "HSE Diesel",
+              "fuel_type": "Diesel"
+            }
+          ]
+        },
+        {
+          "id": "range_rover",
+          "name": "Range Rover",
+          "variants": [
+            {
+              "name": "SE SWB Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "HSE SWB Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Autobiography SWB Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "SE LWB Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "HSE Diesel",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Autobiography PHEV",
+              "fuel_type": "Hybrid"
+            }
+          ]
+        },
+        {
+          "id": "range_rover_sport",
+          "name": "Range Rover Sport",
+          "variants": [
+            {
+              "name": "SE Dynamic Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "HSE Dynamic Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Autobiography Dynamic Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "SE Dynamic Diesel",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "PHEV SE Dynamic",
+              "fuel_type": "Hybrid"
+            }
+          ]
+        },
+        {
+          "id": "range_rover_velar",
+          "name": "Range Rover Velar",
+          "variants": [
+            {
+              "name": "S Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "SE Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "HSE Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "R-Dynamic S Diesel",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "R-Dynamic SE Diesel",
+              "fuel_type": "Diesel"
+            }
+          ]
+        },
+        {
+          "id": "range_rover_evoque",
+          "name": "Range Rover Evoque",
+          "variants": [
+            {
+              "name": "S Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "SE Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "HSE Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "SE Diesel",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "HSE Diesel",
+              "fuel_type": "Diesel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "byd",
+      "name": "BYD",
+      "models": [
+        {
+          "id": "atto_3",
+          "name": "Atto 3",
+          "variants": [
+            {
+              "name": "Standard Range",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "Extended Range",
+              "fuel_type": "Electric"
+            }
+          ]
+        },
+        {
+          "id": "seal",
+          "name": "Seal",
+          "variants": [
+            {
+              "name": "Dynamic",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "Excellence",
+              "fuel_type": "Electric"
+            }
+          ]
+        },
+        {
+          "id": "sealion_6",
+          "name": "Sealion 6",
+          "variants": [
+            {
+              "name": "Premium",
+              "fuel_type": "Hybrid"
+            },
+            {
+              "name": "Excellence",
+              "fuel_type": "Hybrid"
+            }
+          ]
+        },
+        {
+          "id": "sealion_7",
+          "name": "Sealion 7",
+          "variants": [
+            {
+              "name": "Dynamic",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "Excellence",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "Excellence AWD",
+              "fuel_type": "Electric"
+            }
+          ]
+        },
+        {
+          "id": "emax_7",
+          "name": "eMax 7",
+          "variants": [
+            {
+              "name": "Premium",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "Excellence",
+              "fuel_type": "Electric"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jaguar",
+      "name": "Jaguar",
+      "models": [
+        {
+          "id": "xe",
+          "name": "XE",
+          "variants": [
+            {
+              "name": "S Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "SE Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "HSE Petrol",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "xf",
+          "name": "XF",
+          "variants": [
+            {
+              "name": "Prestige Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Portfolio Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Prestige Diesel",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Portfolio Diesel",
+              "fuel_type": "Diesel"
+            }
+          ]
+        },
+        {
+          "id": "f_pace",
+          "name": "F-Pace",
+          "variants": [
+            {
+              "name": "S Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "SE Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "HSE Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "R-Dynamic S Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "PHEV SE",
+              "fuel_type": "Hybrid"
+            }
+          ]
+        },
+        {
+          "id": "i_pace",
+          "name": "I-Pace",
+          "variants": [
+            {
+              "name": "SE",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "HSE",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "EV400 SE",
+              "fuel_type": "Electric"
+            }
+          ]
+        },
+        {
+          "id": "f_type",
+          "name": "F-Type",
+          "variants": [
+            {
+              "name": "P300 Coupe",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "P300 R-Dynamic Coupe",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "P450 R Coupe",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "xjl",
+          "name": "XJL",
+          "variants": [
+            {
+              "name": "Premium Luxury Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Portfolio Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Autobiography Petrol",
+              "fuel_type": "Petrol"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mini",
+      "name": "MINI",
+      "models": [
+        {
+          "id": "3_door",
+          "name": "3 Door Hatch",
+          "variants": [
+            {
+              "name": "Classic",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Essential",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Signature",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "S",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Iconic",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "JCW",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "5_door",
+          "name": "5 Door Hatch",
+          "variants": [
+            {
+              "name": "Classic",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Essential",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Signature",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "S",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Iconic",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "convertible",
+          "name": "Convertible",
+          "variants": [
+            {
+              "name": "Classic",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Signature",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "S",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Iconic",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "JCW",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "countryman",
+          "name": "Countryman",
+          "variants": [
+            {
+              "name": "Classic Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Signature Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Iconic Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Classic Electric",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "Signature Electric",
+              "fuel_type": "Electric"
+            }
+          ]
+        },
+        {
+          "id": "clubman",
+          "name": "Clubman",
+          "variants": [
+            {
+              "name": "Classic",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Signature",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Iconic",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "mini_electric",
+          "name": "MINI Electric",
+          "variants": [
+            {
+              "name": "Essential",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "Signature",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "Iconic",
+              "fuel_type": "Electric"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "porsche",
+      "name": "Porsche",
+      "models": [
+        {
+          "id": "cayenne",
+          "name": "Cayenne",
+          "variants": [
+            {
+              "name": "Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "S Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "GTS Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Turbo Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "E-Hybrid",
+              "fuel_type": "Hybrid"
+            },
+            {
+              "name": "S E-Hybrid",
+              "fuel_type": "Hybrid"
+            },
+            {
+              "name": "Turbo E-Hybrid",
+              "fuel_type": "Hybrid"
+            },
+            {
+              "name": "Coupe Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Coupe GTS Petrol",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "macan",
+          "name": "Macan",
+          "variants": [
+            {
+              "name": "Standard Electric",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "4 Electric",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "Turbo Electric",
+              "fuel_type": "Electric"
+            }
+          ]
+        },
+        {
+          "id": "911",
+          "name": "911",
+          "variants": [
+            {
+              "name": "Carrera",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Carrera S",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Carrera 4S",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Targa 4S",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "GT3",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Turbo S",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "panamera",
+          "name": "Panamera",
+          "variants": [
+            {
+              "name": "4 Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "4S Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "GTS Petrol",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "4 E-Hybrid",
+              "fuel_type": "Hybrid"
+            },
+            {
+              "name": "Turbo S E-Hybrid",
+              "fuel_type": "Hybrid"
+            }
+          ]
+        },
+        {
+          "id": "taycan",
+          "name": "Taycan",
+          "variants": [
+            {
+              "name": "Standard RWD",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "4",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "4S",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "GTS",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "Turbo S",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "Sport Turismo GTS",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "Cross Turismo 4",
+              "fuel_type": "Electric"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ford",
+      "name": "Ford",
+      "models": [
+        {
+          "id": "endeavour",
+          "name": "Endeavour",
+          "variants": [
+            {
+              "name": "Trend 2WD AT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Sport 4WD AT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Titanium+ 2WD AT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Titanium+ 4WD AT",
+              "fuel_type": "Diesel"
+            }
+          ]
+        },
+        {
+          "id": "mustang",
+          "name": "Mustang",
+          "variants": [
+            {
+              "name": "Fastback 2.3 EcoBoost",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Fastback 5.0 V8 GT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Mach 1",
+              "fuel_type": "Petrol"
+            }
+          ]
+        },
+        {
+          "id": "mustang_mach_e",
+          "name": "Mustang Mach-E",
+          "variants": [
+            {
+              "name": "Select RWD",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "Premium RWD",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "GT AWD",
+              "fuel_type": "Electric"
+            }
+          ]
+        },
+        {
+          "id": "ecosport",
+          "name": "EcoSport",
+          "variants": [
+            {
+              "name": "Ambiente 1.5 Petrol MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Trend 1.5 Petrol MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Trend+ 1.5 Petrol MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Titanium 1.5 Petrol MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Titanium+ 1.5 Petrol MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "S 1.5 Petrol MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Trend 1.5 Diesel MT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Trend+ 1.5 Diesel MT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Titanium 1.5 Diesel MT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Titanium+ 1.5 Diesel MT",
+              "fuel_type": "Diesel"
+            }
+          ]
+        },
+        {
+          "id": "figo",
+          "name": "Figo",
+          "variants": [
+            {
+              "name": "Ambiente 1.2 Petrol MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Trend 1.2 Petrol MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Titanium 1.2 Petrol MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Titanium+ 1.2 Petrol MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Titanium 1.5 Diesel MT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Titanium+ 1.5 Diesel MT",
+              "fuel_type": "Diesel"
+            }
+          ]
+        },
+        {
+          "id": "aspire",
+          "name": "Aspire",
+          "variants": [
+            {
+              "name": "Ambiente 1.2 Petrol MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Trend 1.2 Petrol MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Titanium 1.2 Petrol MT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Titanium+ 1.5 Petrol AT",
+              "fuel_type": "Petrol"
+            },
+            {
+              "name": "Trend 1.5 Diesel MT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Titanium 1.5 Diesel MT",
+              "fuel_type": "Diesel"
+            },
+            {
+              "name": "Titanium+ 1.5 Diesel MT",
+              "fuel_type": "Diesel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vinfast",
+      "name": "VinFast",
+      "models": [
+        {
+          "id": "vf6",
+          "name": "VF 6",
+          "variants": [
+            {
+              "name": "Eco",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "Plus",
+              "fuel_type": "Electric"
+            }
+          ]
+        },
+        {
+          "id": "vf7",
+          "name": "VF 7",
+          "variants": [
+            {
+              "name": "Eco",
+              "fuel_type": "Electric"
+            },
+            {
+              "name": "Plus",
+              "fuel_type": "Electric"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
