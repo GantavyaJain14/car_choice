@@ -11,3 +11,4 @@ python-multipart
 cryptography
 python-dotenv
 email-validator
+aiosqlite
