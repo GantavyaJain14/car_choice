@@ -26,7 +26,7 @@ function RevealCard({ children, className }: { children: React.ReactNode, classN
 
 export default function AboutUs() {
   return (
-    <div className={`${montserrat.className} bg-black text-white text-[16px] leading-[24px] min-h-screen -mt-16 md:-mt-20 pt-16 md:pt-20`}>
+    <div className={`${montserrat.className} bg-black text-white text-[16px] leading-[24px] min-h-screen`}>
       {/* Hero Section */}
       <section className="relative h-[530px] flex items-end overflow-hidden">
         <div className="absolute inset-0 z-0">

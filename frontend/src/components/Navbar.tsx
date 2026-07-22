@@ -4,33 +4,54 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { EmiCalculatorModal } from "./EmiCalculatorModal";
+import { usePathname } from "next/navigation";
 
 export default function Navbar() {
-    const [isScrolled, setIsScrolled] = useState(false);
+    const pathname = usePathname();
+    const isHome = pathname === "/";
+    const [scrollRatio, setScrollRatio] = useState(0);
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
     const [emiModalOpen, setEmiModalOpen] = useState(false);
 
     useEffect(() => {
+        if (!isHome) {
+            setScrollRatio(1);
+            return;
+        }
+
         const handleScroll = () => {
-            setIsScrolled(window.scrollY > 50);
+            const heroHeight = window.innerHeight || 800;
+            const currentScroll = window.scrollY;
+            const ratio = Math.min(currentScroll / heroHeight, 1);
+            setScrollRatio(ratio);
         };
+        handleScroll();
         window.addEventListener("scroll", handleScroll);
         return () => window.removeEventListener("scroll", handleScroll);
-    }, []);
+    }, [isHome]);
 
     return (
         <header
-            className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 border-b border-white/5 ${isScrolled ? "bg-black/95 backdrop-blur-xl py-4 shadow-2xl" : "bg-gradient-to-b from-black/80 to-transparent py-6"
-                }`}
+            className="fixed top-0 left-0 right-0 z-50 border-b"
+            style={{
+                backgroundColor: `rgba(0, 0, 0, ${scrollRatio * 0.95})`,
+                backdropFilter: `blur(${scrollRatio * 16}px)`,
+                WebkitBackdropFilter: `blur(${scrollRatio * 16}px)`,
+                borderBottomColor: `rgba(255, 255, 255, ${scrollRatio * 0.08})`,
+                paddingTop: `${24 - scrollRatio * 8}px`,
+                paddingBottom: `${24 - scrollRatio * 8}px`,
+                boxShadow: scrollRatio > 0.8 ? "0 25px 50px -12px rgba(0, 0, 0, 0.25)" : "none",
+                transition: "padding 0.3s ease, background-color 0.1s ease, backdrop-filter 0.1s ease"
+            }}
         >
             <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
                 {/* Logo */}
                 <Link href="/" className="flex items-center gap-3 group">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
-                        src="/media/image2.jpeg"
+                        src="/media/image2.png"
                         alt="Car Choice Logo"
-                        className="shrink-0 h-12 w-auto object-contain"
+                        className="shrink-0 h-24 md:h-28 w-auto object-contain -my-4 md:-my-6 -mr-4 md:-mr-6 relative -top-2.5 md:-top-4"
                     />
                     <div className="flex flex-col shrink-0">
                         <span className="text-white text-xl md:text-2xl font-bold tracking-[0.2em] font-heading leading-none whitespace-nowrap">

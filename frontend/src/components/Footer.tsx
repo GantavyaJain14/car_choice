@@ -47,9 +47,9 @@ export default function Footer() {
                         <Link href="/" className="flex items-center gap-3 mb-8">
                             {/* eslint-disable-next-line @next/next/no-img-element */}
                             <img
-                                src="/media/image2.jpeg"
+                                src="/media/image2.png"
                                 alt="Car Choice Logo"
-                                className="shrink-0 h-12 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-500"
+                                className="shrink-0 h-16 md:h-20 w-auto object-contain -my-2 md:-my-4 -mr-3 md:-mr-5 relative -top-1.5 md:-top-2.5 grayscale hover:grayscale-0 transition-all duration-500"
                             />
                             <div className="flex flex-col">
                                 <span className="text-white text-2xl font-bold tracking-[0.2em] font-heading leading-none">

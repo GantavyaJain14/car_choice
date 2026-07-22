@@ -36,9 +36,9 @@ export default function LoginPage() {
                         {/* eslint-disable-next-line @next/next/no-img-element */}
                         <Link href="/">
                             <img
-                                src="/media/image2.jpeg"
+                                src="/media/image2.png"
                                 alt="Logo"
-                                className="shrink-0 bg-white object-contain rounded-md mx-auto mb-6 grayscale"
+                                className="shrink-0 object-contain rounded-md mx-auto mb-6 grayscale"
                                 style={{ width: "80px", height: "80px", maxWidth: "80px" }}
                             />
                         </Link>

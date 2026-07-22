@@ -28,7 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
-      <body className={`${inter.variable} ${poppins.variable} bg-black text-white min-h-screen flex flex-col pt-16 md:pt-20`}>
+      <body className={`${inter.variable} ${poppins.variable} bg-black text-white min-h-screen flex flex-col`}>
         <Navbar />
         <main className="flex-grow">
           {children}

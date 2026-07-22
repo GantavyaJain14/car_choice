@@ -14,6 +14,16 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+import cloudinary
+import cloudinary.uploader
+
+cloudinary.config(
+    cloud_name=os.getenv("CLOUDINARY_CLOUD_NAME"),
+    api_key=os.getenv("CLOUDINARY_API_KEY"),
+    api_secret=os.getenv("CLOUDINARY_API_SECRET")
+)
+
+
 SMTP_SERVER = os.getenv("SMTP_SERVER", "smtp.gmail.com")
 SMTP_PORT = int(os.getenv("SMTP_PORT", 587))
 SENDER_EMAIL = os.getenv("SENDER_EMAIL")
@@ -90,12 +100,18 @@ async def create_car(
 ):
     image_paths = []
     for image in images:
-        file_ext = image.filename.split(".")[-1]
-        file_name = f"{uuid.uuid4()}.{file_ext}"
-        file_path = os.path.join(UPLOAD_DIR, file_name)
-        with open(file_path, "wb") as buffer:
-            buffer.write(await image.read())
-        image_paths.append(f"/uploads/{file_name}")
+        if not image.filename: continue
+        if not os.getenv("CLOUDINARY_CLOUD_NAME"):
+            file_ext = image.filename.split(".")[-1]
+            file_name = f"{uuid.uuid4()}.{file_ext}"
+            file_path = os.path.join(UPLOAD_DIR, file_name)
+            with open(file_path, "wb") as buffer:
+                buffer.write(await image.read())
+            image_paths.append(f"/uploads/{file_name}")
+        else:
+            # Upload directly to Cloudinary using file stream
+            upload_result = cloudinary.uploader.upload(image.file)
+            image_paths.append(upload_result["secure_url"])
         
     new_car = models.Car(
         make=make,
@@ -181,12 +197,16 @@ async def update_car(
         image_paths = []
         for image in images:
             if not image.filename: continue
-            file_ext = image.filename.split(".")[-1]
-            file_name = f"{uuid.uuid4()}.{file_ext}"
-            file_path = os.path.join(UPLOAD_DIR, file_name)
-            with open(file_path, "wb") as buffer:
-                buffer.write(await image.read())
-            image_paths.append(f"/uploads/{file_name}")
+            if not os.getenv("CLOUDINARY_CLOUD_NAME"):
+                file_ext = image.filename.split(".")[-1]
+                file_name = f"{uuid.uuid4()}.{file_ext}"
+                file_path = os.path.join(UPLOAD_DIR, file_name)
+                with open(file_path, "wb") as buffer:
+                    buffer.write(await image.read())
+                image_paths.append(f"/uploads/{file_name}")
+            else:
+                upload_result = cloudinary.uploader.upload(image.file)
+                image_paths.append(upload_result["secure_url"])
         if image_paths:
             car.images = image_paths
 

@@ -12,3 +12,5 @@ cryptography
 python-dotenv
 email-validator
 aiosqlite
+cloudinary
+
