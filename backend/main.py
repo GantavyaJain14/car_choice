@@ -109,8 +109,9 @@ async def create_car(
                 buffer.write(await image.read())
             image_paths.append(f"/uploads/{file_name}")
         else:
-            # Upload directly to Cloudinary using file stream
-            upload_result = cloudinary.uploader.upload(image.file)
+            # Read image contents as bytes and upload directly to Cloudinary
+            image_bytes = await image.read()
+            upload_result = cloudinary.uploader.upload(image_bytes)
             image_paths.append(upload_result["secure_url"])
         
     new_car = models.Car(
@@ -205,7 +206,8 @@ async def update_car(
                     buffer.write(await image.read())
                 image_paths.append(f"/uploads/{file_name}")
             else:
-                upload_result = cloudinary.uploader.upload(image.file)
+                image_bytes = await image.read()
+                upload_result = cloudinary.uploader.upload(image_bytes)
                 image_paths.append(upload_result["secure_url"])
         if image_paths:
             car.images = image_paths
